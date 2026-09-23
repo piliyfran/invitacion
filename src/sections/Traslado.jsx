@@ -32,7 +32,7 @@ export default function Traslado() {
 
       {/* Contactos: columna en mobile, fila en md+ */}
       <div className="flex flex-col md:flex-row md:gap-20 lg:gap-32 gap-3 tracking-normal items-center">
-        <div className="w-50 h-px bg-beige md:hidden"></div>
+        <div className="w-45 h-px bg-beige md:hidden"></div>
 
         <div
           className={`flex flex-col items-center anim-fade-right ${inView ? "in-view" : ""}`}
@@ -53,7 +53,7 @@ export default function Traslado() {
         {/* Separador vertical en desktop */}
         <div className="hidden md:block w-px h-24 bg-beige opacity-40"></div>
 
-        <div className="w-50 h-px bg-beige md:hidden mt-4"></div>
+        <div className="w-45 h-px bg-beige md:hidden mt-4"></div>
 
         <div
           className={`flex flex-col items-center anim-fade-left ${inView ? "in-view" : ""}`}
@@ -70,8 +70,6 @@ export default function Traslado() {
             ENVIAR WHATSAPP
           </a>
         </div>
-
-        <div className="w-50 h-px bg-beige md:hidden"></div>
       </div>
     </section>
   );
