@@ -1,5 +1,5 @@
 import { useInView } from "../hooks/useInView";
-import piliFran1 from "../assets/pili-fran1.png";
+import novios2 from "../assets/novios2.png";
 import fecha from "../assets/fecha.png";
 
 export default function SectionFoto() {
@@ -16,13 +16,13 @@ export default function SectionFoto() {
       </div>
       <div
         ref={ref}
-        className={`anim-scale-in ${inView ? "in-view" : ""} absolute z-20 right-10 -bottom-18 md:right-30 lg:right-150 `}
+        className={`anim-scale-in ${inView ? "in-view" : ""} absolute z-20 right-10 bottom-10 md:right-35 lg:right-160 lg:bottom-15 `}
         style={{ transitionDelay: inView ? "0.35s" : "0s" }}
       >
         <img
-          src={piliFran1}
+          src={novios2}
           alt=""
-          className="w-40 md:w-50 lg:w-60 object-contain rotate-2"
+          className="w-37 md:w-55 lg:w-65 object-contain rotate-2"
         />
       </div>
     </section>
