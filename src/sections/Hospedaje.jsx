@@ -32,16 +32,35 @@ export default function Hospedaje() {
         className={`hospedaje-expand w-full${showMore ? "" : " hidden-expand"}`}
       >
         <div className="hospedaje-inner">
-          <div className="flex flex-col items-center justify-center tracking-wider mt-7 px-8 md:px-16 lg:max-w-2xl lg:mx-auto gap-8 text-[12px] md:text-sm lg:text-base">
-            <p className="font-secondary text-md md:text-lg tracking-wider mt-2">
-              Holiday Inn Rosario &amp; Holiday Inn <br /> Express Rosario
-            </p>
-            <a
-              href="#"
-              className="font-secondary text-sm md:text-base tracking-wider bg-beige text-bordo py-2 px-6 rounded-xl"
-            >
-              VER MAPA
-            </a>
+          <div className="flex flex-col items-center justify-center tracking-wider mt-7 px-8 md:px-16 lg:max-w-2xl lg:mx-auto gap-10 text-[12px] md:text-sm lg:text-base">
+            <div className="flex flex-col items-center justify-center text-center  md:flex-row  gap-4">
+              <div className=" flex flex-col items-center gap-4 md:w-[50%] ">
+                <p className="font-secondary text-lg tracking-wider mt-2 md:px-12">
+                  Holiday Inn Rosario
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/FjdGtUPV3oadm2zEA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-secondary text-[12px] md:text-[14px] tracking-wider bg-beige text-bordo py-2 px-6 rounded-xl"
+                >
+                  VER MAPA
+                </a>
+              </div>
+              <div className="flex flex-col items-center gap-4 md:w-[50%] ">
+                <p className="font-secondary text-lg tracking-wider mt-2 md:px-12">
+                  Holiday Inn Express
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/Fcsu2RoxQwAGXUe46"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-secondary text-[12px] md:text-[14px] tracking-wider bg-beige text-bordo py-2 px-6 rounded-xl"
+                >
+                  VER MAPA
+                </a>
+              </div>
+            </div>
             <p>
               La opción estratégica para participantes del evento. Con una gran
               trayectoria en Rosario, y como parte del grupo IHG Hotels;
@@ -65,8 +84,8 @@ export default function Hospedaje() {
               Reservas directas, preguntar por coordinadoras, Julieta o Martina:
             </p>
             <p>
-              Julieta: reservas@holidayinnrosario.com Martina:
-              reservas@hierosaro.com WhatsApp: +54 9 341 7410823 <br />{" "}
+              Julieta: reservas@holidayinnrosario.com <br /> Martina:
+              reservas@hierosaro.com <br /> WhatsApp: +54 9 341 7410823 <br />{" "}
               Teléfono: +54 341 4100 000
             </p>
             <p>
